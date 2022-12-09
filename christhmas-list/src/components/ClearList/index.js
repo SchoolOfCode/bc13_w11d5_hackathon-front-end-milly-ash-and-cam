@@ -1,5 +1,5 @@
 import React from "react";
-import "./clearList.css";
+//import "./clearList.css";
 
 function ClearList({ clearList, buttonText }) {
   return (
