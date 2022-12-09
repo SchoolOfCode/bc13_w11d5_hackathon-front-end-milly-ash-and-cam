@@ -1,3 +1,45 @@
-body{
-    color: white;
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;700&display=swap");
+
+body {
+  color: white;
+  background-color: #3c1010;
+}
+
+h1 {
+  --color1: #0c5e27;
+  --color2: #5e0d0c;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 80px;
+  background: repeating-linear-gradient(
+    45deg,
+    var(--color1),
+    var(--color1) 30px,
+    var(--color2) 30px,
+    var(--color2) 60px
+  );
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: 40s linear 0s infinite move;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+@keyframes move {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: 1000px;
+  }
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h1,
+h2 {
+  font-family: "Bangers", cursive;
 }
