@@ -5,7 +5,7 @@ function NiceList({ list, changeList }) {
   }
 
   return (
-    <section>
+    <section className="listSection">
       <h2>Nice</h2>
       <ul>
         {list.map((each) => {
@@ -13,7 +13,7 @@ function NiceList({ list, changeList }) {
             <li className="listItem" key={each.id}>
               {each.name}
               <button
-                className="NiceList"
+                className="button"
                 onClick={() => {
                   handleClick(each.id);
                 }}

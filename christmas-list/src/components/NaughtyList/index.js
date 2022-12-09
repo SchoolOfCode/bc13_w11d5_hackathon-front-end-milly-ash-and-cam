@@ -1,3 +1,5 @@
+import "./naughtylist.css";
+
 function NaughtyList({ list, changeList }) {
   function handleClick(id) {
     console.log("Button clicked!", id);
@@ -5,15 +7,16 @@ function NaughtyList({ list, changeList }) {
   }
 
   return (
-    <section>
+    <section className="listSection">
       <h2>Naughty</h2>
       <ul>
         {list.map((each) => {
           return (
             <li className="listItem" key={each.id}>
               {each.name}
+
               <button
-                className="NaughtyList"
+                className="button2"
                 onClick={() => {
                   handleClick(each.id);
                 }}

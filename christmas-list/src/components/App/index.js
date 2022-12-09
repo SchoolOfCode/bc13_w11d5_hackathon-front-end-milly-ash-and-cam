@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import NiceList from "../NiceList";
 import NaughtyList from "../NaughtyList";
+import "./app.css";
+import Snowfall from "react-snowfall";
 
 /* 1. App will contain components which will allow a person to input items into a list, show the items that are in the list, 
 and clear all of the items in a list. 
@@ -48,7 +50,17 @@ function App() {
   }
 
   return (
-    <section>
+    <section id="layout">
+      <div>
+        <Snowfall
+          style={{
+            position: "fixed",
+            width: "100vw",
+            height: "100vh",
+          }}
+        />
+      </div>
+
       <h1 id="title">Santa's Naughty and Nice Lists</h1>
       <div id="lists">
         <NiceList list={niceList} changeList={changeList} />
