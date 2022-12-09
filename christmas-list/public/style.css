@@ -39,8 +39,8 @@ h1 {
   }
 }
 
-h2{ --color1: #cfc1c1;
---color2: #e00b07;
+h2{ --color1: #08b102;
+    --color2: #e00b07;
 font-family: "Open Sans", sans-serif;
 text-align: center;
 font-size: 50px;
