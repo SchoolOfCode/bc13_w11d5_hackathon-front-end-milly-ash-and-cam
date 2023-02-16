@@ -1,6 +1,6 @@
 # Hackathon - Deployed Full Stack Challenge 💪🏆🪝
 
-**See the deployed app [here](santaslist.netlify.app)!**
+**See the deployed app [here](https://santaslist.netlify.app)!**
 
 Your challenge is to ideate, plan, and build a full stack app that includes the requirements below. You can use this repository for your front end. For your back end, one person in your team can create another repository for the back end and add your pair/team as contributors. (Pop a link to your team's back end repository in this readme.)
 
